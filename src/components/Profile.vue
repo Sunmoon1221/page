@@ -302,6 +302,7 @@ export default {
 	}
   .avatar {
     margin:0 24px;
+		border-radius: 50%;
   }
 
   .user-info .info {
@@ -321,7 +322,7 @@ export default {
 // 主体
 .body {
   padding: 0 24px;
-	height: calc(100vh - 100px);
+	height: 100%;
   background-color: #f3f3f3;
 }
 // 功能
